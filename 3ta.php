@@ -1,8 +1,8 @@
 <?php
 
-echo ConverToRoman(19);
+echo ConvertToRoman(19);
 
-function ConverToRoman($num){ 
+function ConvertToRoman($num){ 
     $n = intval($num); 
     $res = ''; 
 
